@@ -19,7 +19,7 @@ git clone https://github.com/KengoWada/Stackoverflow-lite-UI.git
 
 ### Deployment
 
-The pages are hosted on [Github pages](https://kengowada.github.io/Stackoverflow-lite UI/UI/index.html)
+The pages are hosted on [Github pages](https://kengowada.github.io/Stackoverflow-lite-UI/UI/index.html)
 
 ### Built With
 
