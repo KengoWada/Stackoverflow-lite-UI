@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stackoverflow-lite | Home</title>
+        <link rel="shortcut icon" type="image/png" href="Icons/logo.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+        <link rel="stylesheet" href="CSS/home.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="branding">
+                    <img class="logo" src="Icons/logo.png" alt="logo">
+                    <small>Stackoverflow</small><b>-lite</b>
+                </div>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item avatar">
+                            <a class="nav-link" href="#"><img class="dp" src="Icons/avatar.png" alt=""></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link drop-btn" href="#">Kengo Wada</a>
+                            <div class="dropdown-content">
+                                <a href="profile.html">Profile</a>
+                                <a href="index.html">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <button onclick="side()" class="btn side-btn"><img class="side-menu icon" src="Icons/menu.png" alt="menu"></button>
+        <div id="side-nav" class="sidenav">
+            <a href="home.html">Home</a>
+            <a href="my_qn.html">My Questions</a>
+            <a href="ask.html">Ask a Question</a>
+        </div>
+        <section>
+            <div class="ask">
+                <form>
+                    <textarea name="asked" id="" cols="75" rows="10" placeholder="Ask a question..." class="asked"></textarea>
+                    <br>
+                    <button class="btn ask-btn">Ask</button>
+                </form>
+            </div>
+        </section>
+        <script src="JS/home.js"></script>
+    </body>
+</html>
