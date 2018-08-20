@@ -8,7 +8,7 @@ Clone the project using the [link](https://github.com/KengoWada/Stackoverflow-li
 
 ### Prerequisites
 
-A browser with the access to the internet.
+A browser with access to the internet.
 
 ### Installing
 
