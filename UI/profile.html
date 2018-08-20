@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stackoverflow-lite | Profile</title>
+        <link rel="shortcut icon" type="image/png" href="Icons/logo.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+        <link rel="stylesheet" href="CSS/profile.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="branding">
+                    <img class="logo" src="Icons/logo.png" alt="logo">
+                    <small>Stackoverflow</small><b>-lite</b>
+                </div>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item avatar">
+                            <a class="nav-link" href="#"><img class="dp" src="Icons/avatar.png" alt=""></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link drop-btn" href="#">Kengo Wada</a>
+                            <div class="dropdown-content">
+                                <a href="profile.html">Profile</a>
+                                <a href="index.html">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <button onclick="side()" class="btn side-btn"><img class="side-menu icon" src="Icons/menu.png" alt="menu"></button>
+        <div id="side-nav" class="sidenav">
+            <a href="home.html">Home</a>
+            <a href="my_qn.html">My Questions</a>
+            <a href="ask.html">Ask a Question</a>
+        </div>
+        <section class="profile-info">
+            <div class="qns-asked">
+                <h3>Questions Asked</h3>
+                <p class="num">00</p>
+            </div>
+            <div class="ans-given">
+                <h3>Total Answers Recieved</h3>
+                <p class="num">00</p>
+            </div>
+            <div class="most-ans">
+                <h3>Most answered Questions</h3>
+                <ul>
+                    <li><a href="question.html">How to make a website?</a></li>
+                </ul>
+            </div>
+            <div class="recent">
+                <h3>Recent Questions</h3>
+                <ul>
+                    <li><a href="question.html">How to make a website?</a></li>
+                </ul>
+            </div>
+        </section>
+        <script src="JS/home.js"></script>
+    </body>
+</html>
